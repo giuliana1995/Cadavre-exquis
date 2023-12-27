@@ -1,0 +1,8 @@
+<div class="container">
+    <div class="box">
+<!-- <label for="phraseInput">Scrivi qui la tua frase</label> -->        
+        <input id="phraseInput" type="text" [(ngModel)]="currentPhrase" (keyup.enter)="addPhrase()">
+        <div style="position: relative" id="cursorBlink"></div>
+    </div>
+    <button (click)="addPhrase()">Aggiungi</button>
+</div>

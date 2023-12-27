@@ -1,0 +1,43 @@
+    
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 95px;
+    text-shadow: 4px 3px 4px rgb(197 193 193 / 80%);
+    margin-bottom: -30px;
+}
+
+p {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+
+.blinking-cursor {
+    animation: blink 1s infinite;
+    background-color: transparent;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    height: 30px;
+    color: white; /* Aggiunto il colore bianco al cursore */
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 80px;
+        padding: 20px 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 63px;
+    }
+    p {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,125 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: white;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  align-self: center;
+  font-family: 'El Messiri';
+}
+
+input {
+  width: 900px;
+  height: 130px;
+  background-color: transparent;
+  color: white;
+}
+
+button {
+  display: none;
+}
+
+
+#phraseInput {
+  font-size: 50px;
+  height: 130px;
+  /* Imposta la dimensione del testo del campo di input */
+  color: white;
+  /* Imposta il colore del testo del campo di input */
+  /* background-color: #1d1d1d; */
+  background-color: black;
+  /* Imposta il colore di sfondo del campo di input */
+  border: none;
+  /* Rimuovi il bordo */
+  outline: none;
+  /* Rimuovi l'outline che appare quando il campo è in focus */
+  cursor: text;
+  /* Imposta il cursore su tipo testo */
+  animation: blink 1s infinite;
+  /* Aggiungi un'animazione di lampeggio al cursore */
+}
+
+#cursorBlink {
+  font-size: 18px;
+  color: white;
+  position: fixed;
+  left: 50%;
+  /* Posiziona al centro orizzontale della finestra */
+  top: 50%;
+  /* Posiziona al centro verticale della finestra */
+  transform: translate(-50%, -50%);
+  /* Regola la posizione al centro esatto */
+  animation: blink 1s infinite;
+}
+
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+@media screen and (max-width: 940px) { 
+input {
+  width: 700px;
+}
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  #phraseInput {
+    font-size: 42px; 
+  }
+
+
+  .container {
+    flex-direction: column;
+    padding: 20px 20px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  button {
+    display: inline;
+    background-color: #444246;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    border-top: none;
+    border-left: none;
+    font-family: monospace;
+    font-size: 11px;
+    width: 150px;
+    height: 34px;
+    align-self: center;
+    margin-bottom: 0;
+    cursor: pointer;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+
+  #phraseInput {
+    font-size: 26px;
+    margin-top: -33px;
+    margin-bottom: 38px;
+
+  }
+
+  input {
+    width: 100%;
+  }
+}

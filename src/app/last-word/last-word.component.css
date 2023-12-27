@@ -1,0 +1,14 @@
+.container {
+    color: white; 
+    display: flex;  
+    justify-content: center; 
+    font-size: 39px;
+    font-family: 'El Messiri';
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        font-size: 23px;
+        word-break: break-word;
+    }
+}
