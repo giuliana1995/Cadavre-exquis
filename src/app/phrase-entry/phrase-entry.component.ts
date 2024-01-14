@@ -17,8 +17,6 @@ export class PhraseEntryComponent implements OnInit, AfterViewInit{
   }
 
   ngAfterViewInit() {
-    // Focus automatico al caricamento della pagina
-    //this.el.nativeElement.querySelector('#phraseInput').focus();
     this.focusInput();
   }
 

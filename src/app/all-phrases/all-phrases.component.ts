@@ -16,21 +16,21 @@ export class AllPhrasesComponent implements OnInit {
       this.allPhrases = phrases;
       console.log(phrases)
     });
-   }
+  }
 
   ngOnInit(): void {
   }
 
   @HostListener('document:keydown', ['$event'])
   keyEvent(event: KeyboardEvent) {
-    if(event.ctrlKey && event.key === 'a') {
+    if (event.ctrlKey && event.key === 'a') {
       this.showAllPhrases();
     }
-    if (event.ctrlKey && event.key === 'd') { 
+    if (event.ctrlKey && event.key === 'd') {
       this.clearLocalStorage();
     }
   }
-    
+
   showAllPhrases() {
     this.showPhrases = !this.showPhrases; // Inverti il valore di showPhrases
     if (!this.showPhrases) {

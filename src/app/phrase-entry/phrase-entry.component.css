@@ -32,20 +32,12 @@ button {
 #phraseInput {
   font-size: 50px;
   height: 130px;
-  /* Imposta la dimensione del testo del campo di input */
   color: white;
-  /* Imposta il colore del testo del campo di input */
-  /* background-color: #1d1d1d; */
   background-color: black;
-  /* Imposta il colore di sfondo del campo di input */
   border: none;
-  /* Rimuovi il bordo */
   outline: none;
-  /* Rimuovi l'outline che appare quando il campo è in focus */
   cursor: text;
-  /* Imposta il cursore su tipo testo */
   animation: blink 1s infinite;
-  /* Aggiungi un'animazione di lampeggio al cursore */
 }
 
 #cursorBlink {
@@ -53,14 +45,10 @@ button {
   color: white;
   position: fixed;
   left: 50%;
-  /* Posiziona al centro orizzontale della finestra */
   top: 50%;
-  /* Posiziona al centro verticale della finestra */
   transform: translate(-50%, -50%);
-  /* Regola la posizione al centro esatto */
   animation: blink 1s infinite;
 }
-
 
 @keyframes blink {
   50% {
@@ -81,8 +69,7 @@ input {
   #phraseInput {
     font-size: 42px; 
   }
-
-
+  
   .container {
     flex-direction: column;
     padding: 20px 20px;
@@ -116,7 +103,6 @@ input {
     font-size: 26px;
     margin-top: -33px;
     margin-bottom: 38px;
-
   }
 
   input {

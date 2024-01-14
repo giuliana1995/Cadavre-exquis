@@ -10,7 +10,7 @@ export class LastWordComponent implements OnInit {
 
   lastPhrase = '';
 
-  constructor(private phraseService: PhraseService) { 
+  constructor(private phraseService: PhraseService) {
     this.phraseService.phrases$.subscribe(phrases => {
       this.lastPhrase = phrases[phrases.length - 1];
     })
@@ -18,7 +18,6 @@ export class LastWordComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 
   getLastWord(phrase: string): string {
     const words = phrase.split(' ');

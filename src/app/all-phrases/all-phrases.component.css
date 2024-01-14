@@ -1,69 +1,69 @@
 .container {
-    flex-direction: column;
-    color: white;
-    width: 100%;
-    align-items: center;
-    display: flex;
+  flex-direction: column;
+  color: white;
+  width: 100%;
+  align-items: center;
+  display: flex;
 }
 
 ul {
-    padding: 28px;
-    width: 100%;
-    text-align: center;
-    font-family: 'El Messiri';
+  padding: 28px;
+  width: 100%;
+  text-align: center;
+  font-family: 'El Messiri';
 }
 
 li {
-    color: white;
-    text-decoration: none;
-    list-style-type: none; 
-    padding: 0; 
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
 }
 
 .container-btn {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .show {
-    margin: 10px 10px;
-   
+  margin: 10px 10px;
+
 }
 
 .show button {
-    background-color: #17932b;
-    margin-left: 10px;
-    border-radius: 10px;
-    color: rgb(255, 255, 255);
-    border-top: none;
-    border-left: none;
-    font-family: monospace;
-    font-size: 11px;
-    height: 36px;
-    cursor: pointer;
+  background-color: #17932b;
+  margin-left: 10px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  border-top: none;
+  border-left: none;
+  font-family: monospace;
+  font-size: 11px;
+  height: 36px;
+  cursor: pointer;
 
 }
 
 .clear {
-    margin: 10px 10px;
+  margin: 10px 10px;
 }
 
 .clear button {
-    margin-left: 10px;
-    background-color: #a61515d9;
-    border-radius: 10px;
-    color: rgb(255, 255, 255);
-    border-top: none;
-    border-left: none;
-    font-family: monospace;
-    font-size: 11px;
-    height: 36px;
-    cursor: pointer;
+  margin-left: 10px;
+  background-color: #a61515d9;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  border-top: none;
+  border-left: none;
+  font-family: monospace;
+  font-size: 11px;
+  height: 36px;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
-    .container-btn {
-        display: none;
-    }
+  .container-btn {
+    display: none;
+  }
 }

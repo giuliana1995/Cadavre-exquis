@@ -9,7 +9,7 @@ export class PhraseService {
   phraseSubject = new BehaviorSubject<string[]>([]);
   phrases$ = this.phraseSubject.asObservable();
 
-  constructor() { 
+  constructor() {
     this.loadStoredPhrases()
   }
 

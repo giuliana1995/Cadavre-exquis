@@ -23,7 +23,7 @@ p {
     border-top: 0;
     border-bottom: 0;
     height: 30px;
-    color: white; /* Aggiunto il colore bianco al cursore */
+    color: white;
 }
 
 @media screen and (max-width: 768px) {
